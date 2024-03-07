@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="img/logo.png" alt="">
+    </header>
+
+    <main>
+        <div class="seccion">
+            <div class="all">
+                <div class="box-cr">
+                    <textarea name="text" placeholder="Ingrese el texto aqui" class="container-text-box" id="text"
+                        cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="info">
+                    <img src="img/info.png" alt="info">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+
+                <div class="container-btn">
+                    <input type="button" class="btn-cr" value="Encriptador" onclick="encriptar(); limpiarCaja();">
+                    <input type="button" class="btn-dr" value="Desencriptar" onclick="desencriptar(); limpiarCaja();">
+                </div>
+
+                <div class="seccion2">
+                    <div class="container-text-result" id="container-text-result">
+                        <img src="img/muneco.png" alt="muneco" id="muneco">
+                        <div class="text-container">
+                            <p class="text-result" id="text-result"></p>
+                        </div>
+                        <div class="container-copy">
+                            <input type="button" class="btn-copy" value="Copiar" onclick="copy()">
+                        </div>
+
+
+                        <div class="container-text" id="container-text">
+                            <h2 id="title-message">Ningun mensaje fue </br>encontrado</h2>
+                            <p id="pr">Ingresa el texto que deseas encriptar o desencriptar</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+    </main>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
