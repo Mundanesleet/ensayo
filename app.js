@@ -24,7 +24,6 @@ function encriptar() {
     textResult.textContent = textoEncriptado;
     buttonCopy.style.display = "block";
     image.style.display = "none";
-    console.log("HOla");
   } else {
     image.style.display = "inline";
     image.src = "img/muneco.png";
@@ -59,7 +58,7 @@ function desencriptar() {
     textResult.textContent = textoCifrado;
     buttonCopy.style.display = "block";
     image.style.display = "none";
-    console.log("HOla");
+
   } else {
     image.style.display = "inline";
     image.src = "img/muneco.png";
@@ -85,7 +84,6 @@ function copy() {
     btnCopy.addEventListener("click", () => {
       var contenido = textResult.textContent;
       navigator.clipboard.writeText(contenido);
-      console.log("Texto copiado: " + contenido);
     });
   }
 }
