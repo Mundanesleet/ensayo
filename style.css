@@ -37,7 +37,7 @@ header {
 
 .box-cr {
   position: absolute;
-  width: 42%;
+  width: 70%;
   height: 60%;
   left: 12%;
   top: 15%;
@@ -258,6 +258,14 @@ header {
   .all {
     width: 100%;
   }
+
+  .box-cr {
+    width: 90%;
+    height: 40%;
+    left: 10%;
+    top: 5%;
+
+  }
   .container-text-box {
     width: 80%;
     height: 60%;
@@ -267,7 +275,7 @@ header {
   .info {
     width: 80%;
     left: 10%;
-    top: 67%;
+    top: 50%;
   }
   .info p {
     font-size: 16px;
@@ -275,7 +283,7 @@ header {
   .container-btn {
     width: 80%;
     left: 10%;
-    top: 70%;
+    top: 55%;
   }
   .btn-cr,
   .btn-dr {
@@ -295,7 +303,7 @@ header {
     width: 80%;
     height: 30%;
     left: 10%;
-    top: 80%;
+    top: 65%;
   }
 
   .container-text-result {
@@ -350,6 +358,8 @@ header {
   .container-text h2 {
     top: 80%;
     font-size: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .container-text p {
@@ -362,10 +372,20 @@ header {
   .seccion {
     display: flex;
     flex-direction: row;
+    margin-left: -1%;
+    margin-right: 20%;
   }
   .all {
     width: 100%;
   }
+
+  .box-cr {
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    top: 5%;
+  }
+
   .container-text-box {
     width: 80%;
     height: 60%;
@@ -376,7 +396,7 @@ header {
   .info {
     width: 80%;
     left: 10%;
-    top: 64%;
+    top: 45%;
   }
   .info p {
     font-size: 16px;
@@ -384,7 +404,7 @@ header {
   .container-btn {
     width: 80%;
     left: 10%;
-    top: 70%;
+    top: 51%;
   }
   .btn-cr,
   .btn-dr {
@@ -399,9 +419,9 @@ header {
   }
   .seccion2 {
     width: 80%;
-    height: 30%;
+    height: 40%;
     left: 10%;
-    top: 80%;
+    top: 60%;
   }
 
   .container-text-result {
@@ -421,11 +441,10 @@ header {
 
   .text-container {
     display: flex;
-    justify-content: center;
+
     align-items: center;
     overflow: hidden;
-    max-height: 70%;
-    height: auto;
+    height: 80%;
     overflow-y: auto;
   }
 
