@@ -27,6 +27,10 @@ header {
   height: 100vh;
 }
 
+.all {
+  width: 100%;
+}
+
 .logo {
   width: 10%;
   max-width: 200px;
