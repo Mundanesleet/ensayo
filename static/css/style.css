@@ -27,10 +27,6 @@ header {
   height: 100vh;
 }
 
-.all {
-  width: 100%;
-}
-
 .logo {
   width: 10%;
   max-width: 200px;
@@ -253,9 +249,8 @@ header {
   opacity: 0.6;
 }
 
-
 /* Pantalla mediana */
-@media (max-width: 1366px) {
+@media (max-width: 1024px) {
   .seccion {
     display: flex;
     flex-direction: row;
@@ -269,7 +264,6 @@ header {
     height: 40%;
     left: 10%;
     top: 5%;
-
   }
   .container-text-box {
     width: 80%;
